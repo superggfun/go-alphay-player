@@ -72,7 +72,7 @@ kill PID数字
 ```
 #### Linux宝塔面板
 在Linux宝塔面板中部署Go。
-
+![baota.png](https://tva1.sinaimg.cn/large/008c6yxSgy1h54a3l9dowj31aq066q50.jpg)
 
 
 
