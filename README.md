@@ -65,6 +65,11 @@ server {
 ```vim
 Esc:wq
 ```
+5. 如何停止播放器
+```bash
+lsof -i:8001
+kill PID数字
+```
 #### Linux宝塔面板
 在Linux宝塔面板中部署Go。
 
