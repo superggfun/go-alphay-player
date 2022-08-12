@@ -74,5 +74,10 @@ kill PID数字
 在Linux宝塔面板中部署Go。
 ![baota.png](https://tva1.sinaimg.cn/large/008c6yxSgy1h54a3l9dowj31aq066q50.jpg)
 
+#### Docker部署
+```bash
+docker build -t alphay-player .
+docker run -p 8001:8001 -v /player:/player -d alphay-player --name player
+```
 
 
