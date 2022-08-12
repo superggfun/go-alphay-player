@@ -77,7 +77,7 @@ kill PID数字
 #### Docker部署
 ```bash
 docker build -t alphay-player .
-docker run -p 8001:8001 -v /player:/player -d alphay-player --name player
+docker run --name player -p 8001:8001 -v /player:/player -d alphay-player
 ```
 
 
