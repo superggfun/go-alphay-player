@@ -33,3 +33,41 @@
     "paras": 0              // 是否开启解析，0为关闭，1为打开
 }
 ```
+## 部署
+#### Nginx(推荐)
+1. 解压
+```bash
+tar zxvf alphay-player1.0.2.tar.gz
+```
+2. 运行
+```bash
+nohup ./main &
+exit
+```
+3. Nginx反向代理
+* 使用vim修改nginx配置文件
+```bash
+vim usr/local/nginx/conf/nginx.conf
+```
+* 在http段中添加
+```vim
+server {
+        listen       80;
+        server_name  域名;
+
+        location / {
+                proxy_pass  http://localhost:8001;
+
+                }
+   }
+```
+* vim保存
+```vim
+Esc:wq
+```
+#### Linux宝塔面板
+在Linux宝塔面板中部署Go。
+
+
+
+
