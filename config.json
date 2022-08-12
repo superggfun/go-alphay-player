@@ -1,0 +1,18 @@
+{
+    "username": "user",
+    "password": "123123",
+    "duration": 600,
+    "admin": "/admin",
+    "player": "/",
+    "domain": "localhost",
+    "port": 8001,
+    "tip": {
+      "time": "6",
+      "color": "#fb7299",
+      "text": "请大家遵守弹幕礼仪，文明发送弹幕"
+    },
+    "Limit_time": 60,       
+    "Limit_requence": 20,  
+    "allow_url": [],
+    "paras": 0
+}
